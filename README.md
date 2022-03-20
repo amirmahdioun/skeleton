@@ -8,11 +8,11 @@ use this component every where you want to have skeleton before load the content
     <Skeleton />
 
 This component gives two required props
-First is : **mode** ('article' , 'profile')
+First is : **mode** ('article' , 'profile', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'body', 'title', 'caption')
 Use article mode for article. It has a heading and body for this purpose
 and use profile mode for profiles also it has an avatar, name section and description
 (See examples in example page)
-Second props is : **animation** ('pulse' , 'wave', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'body', 'title', 'caption')
+Second props is : **animation** ('pulse' , 'wave')
 
     <Skeleton mode={'article'} animation={'pulse'} />
     <Skeleton mode={'article'} animation={'wave'} />
