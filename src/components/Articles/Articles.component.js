@@ -26,8 +26,8 @@ const ArticlesComponent = () => {
                     </div>
                 ))
             )}
-            {!articles && dataNumber.map(item => (
-                <Skeleton mode={'article'} animation={'wave'}/>
+            {!articles && dataNumber.map((item,index) => (
+                <Skeleton key={index} mode={'article'} animation={'wave'}/>
             ))}
         </div>
     );
