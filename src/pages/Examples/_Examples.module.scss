@@ -1,0 +1,32 @@
+.container {
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.wrapper {
+  margin-bottom: 3rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+  color: #1e65ff;
+  font-size: 1.8rem;
+}
+
+.profile_header {
+  display: flex;
+  align-items: flex-end;
+
+  & img {
+    margin-right: 1rem;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #1e65ff;
+  }
+}
+
+.animation {
+  color: #ec4848;
+  margin: 2rem 0 1rem 0;
+}

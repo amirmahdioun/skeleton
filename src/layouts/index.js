@@ -1,0 +1,1 @@
+export {MainLayout} from 'layouts/Main/Main.layout'
