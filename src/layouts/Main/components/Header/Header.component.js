@@ -8,10 +8,11 @@ const HeaderComponent = () => {
         <header>
             <div className={style.container}>
                 <div className={style.headerContent}>
-                    <h1>React skeleton project</h1>
+                    <h1>React skeleton</h1>
                     <ul>
                         <li><Link to={`/`}>Home</Link></li>
                         <li><Link to={`${PATHS.EXAMPLES}`}>Examples</Link></li>
+                        <li><Link to={`${PATHS.DOCUMENT}`}>Docs</Link></li>
                     </ul>
                 </div>
             </div>

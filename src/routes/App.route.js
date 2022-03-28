@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {PATHS} from "configs/routes.config";
-import {ExamplesPage, HomePage} from "pages";
+import {DocumentPage, ExamplesPage, HomePage} from "pages";
 import {MainLayout} from "layouts";
 
 const AppRoute = () => {
@@ -13,6 +13,8 @@ const AppRoute = () => {
                            element={<HomePage/>}/>
                     <Route path={PATHS.EXAMPLES}
                            element={<ExamplesPage/>}/>
+                    <Route path={PATHS.DOCUMENT}
+                           element={<DocumentPage/>}/>
                 </Routes>
             </MainLayout>
         </BrowserRouter>
