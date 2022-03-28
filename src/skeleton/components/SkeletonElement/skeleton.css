@@ -58,6 +58,10 @@
     height: 100px;
 }
 
+.skeleton.image {
+    width: 100px;
+    height: 100px;
+}
 @keyframes pulse {
     0% {
         opacity: 0.8;

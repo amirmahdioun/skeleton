@@ -31,3 +31,12 @@
   color: #ec4848;
   margin: 2rem 0 1rem 0;
 }
+
+.post{
+  display: flex;
+  justify-content: space-between;
+}
+.postCard{
+  display: flex;
+  flex-direction: column;
+}

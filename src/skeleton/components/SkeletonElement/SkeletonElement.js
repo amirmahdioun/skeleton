@@ -2,10 +2,18 @@ import React from 'react';
 import './skeleton.css'
 import PropTypes from "prop-types";
 
-const SkeletonElement = ({type, animation}) => {
+const SkeletonElement = ({type, animation, sx}) => {
     const classes = `skeleton ${type}`
+    if (sx) {
+        return (
+            <div className={`${classes}`}
+                 style={{width: sx.width, height: sx.height, backgroundColor: sx.backgroundColor}}>
+                <div id={animation}></div>
+            </div>
+        );
+    }
     return (
-        <div className={`${classes}`} >
+        <div className={`${classes}`}>
             <div id={animation}></div>
         </div>
     );
